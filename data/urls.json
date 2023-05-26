@@ -1,0 +1,53 @@
+{
+  "APA YANG KAMU CARI": {
+    "title": "APA YANG KAMU CARI",
+    "urls": [
+      {
+        "title": "MY WEBSITE",
+        "url": "https://www.balsss.com/",
+        "body": "Update artikel kalo gabut.",
+        "tag": ["Konten", "Artikel"],
+        "published_date": "2025-07-17"
+      },
+      {
+        "title": "MY CV Galaxie",
+        "url": "https://galaxie.co/p/bals",
+        "body": "CV",
+        "tag": ["CV"],
+        "published_date": "2025-07-17"
+      },
+      {
+        "title": "MY Store",
+        "url": "https://t.me/balstotapp",
+        "body": "Menjual APP premium.",
+        "tag": ["Jualan", "Dagangan"],
+        "published_date": "2025-07-17"
+      },
+      {
+        "title": "MY Youtube",
+        "url": "https://www.youtube.com/@iqbaladistia",
+        "body": "Subscribe ya biar seneng aja ada yg ikutin ehehe.",
+        "tag": ["Konten"],
+        "published_date": "2025-07-17"
+      },
+      {
+        "title": "SISANYA NYUSUL GATAU NARO APA LAGI DISINI",
+        "url": "https://www.youtube.com/@iqbaladistia",
+        "body": "Ditungguin aja kedepanya ku update kalo gamalas",
+        "published_date": "2025-09-19"
+      }
+    ]
+  },
+
+  "support": {
+    "title": "Support",
+    "urls": [
+      {
+        "title": "Traktir iqbal beli kopi sama roko.",
+        "url": "https://saweria.co/iqbaladistia",
+        "body": "Makasih udah support!",
+        "tag": ["SUPPORT", "TRAKTIR"]
+      }
+    ]
+  }
+}

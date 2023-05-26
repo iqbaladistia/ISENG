@@ -1,0 +1,205 @@
+:root {
+  --c-primary: #4b90e2;
+  --c-primary-dark: black;
+  --c-primary-light: #f1f7fe;
+  --c-secondary: #ff7c6f;
+  --c-secondary-light: #ffedeb;
+  --c-text: #ffffff;
+  --c-accent: #202048;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 411px;
+  margin: 0 auto;
+  padding: 56px 34px;
+  display: grid;
+  grid-gap: 2rem;
+  background-color: #1f1d2b;
+  background-image: url(https://www.dwinawan.com/new_bookmark_assets/bookmarkgradient.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.profile__bio__name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--c-text);
+}
+
+.profile__bio__title {
+  color: var(--c-text);
+  opacity: 0.6;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.socials__link__icon {
+  width: 42px;
+  height: 42px;
+}
+
+.search {
+  width: 100%;
+  height: 42px;
+}
+
+.search__input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.section {
+  display: grid;
+  grid-gap: 16px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.08em;
+  color: var(--c-text);
+  width: fit-content;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  display: grid;
+  grid-gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card__image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__header__title,
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+.card__header__button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.card__header__button__icon {
+  width: 24px;
+  height: 24px;
+  color: var(--c-primary);
+}
+
+.card__input {
+  color: var(--c-text);
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.card__actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__actions__button {
+  width: 100%;
+  height: fit-content;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border: 1px solid var(--c-primary-light);
+  text-decoration: none;
+  color: var(--c-primary-dark);
+  background: var(--c-primary-light);
+  text-align: center;
+  font-size: 14px;
+  padding: 4px;
+
+  // for multiple buttons
+  &:first-child {
+    margin-right: 0.5rem;
+  }
+}
+
+.card__body {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c-text);
+  opacity: 0.6;
+}
+
+.card__tag {
+  display: flex;
+  list-style: none;
+}
+
+.card__tag__item {
+  background-color: var(--c-primary);
+  color: var(--c-text);
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
